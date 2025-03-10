@@ -69,8 +69,13 @@
   transform-origin: bottom left;
 }
 
+/* Hide mobile resume item by default */
+.mobileResumeItem {
+  display: none;
+}
+
 /* Resume Button Styles */
-.resumeContainer {
+.desktopResumeContainer {
   margin-left: 40px; /* Add extra space between Contact and Resume */
 }
 
@@ -138,12 +143,15 @@
     display: flex;
     z-index: 1;
   }
-
-  .resumeContainer {
-    margin-left: 0; /* Reset margin for mobile */
-    margin-top: 10px; /* Add space between menu items and resume button */
-    position: relative; /* Position relative to make sure it doesn't overlap */
-    z-index: 3; /* Higher z-index than the menu */
+  
+  /* Show mobile resume item in menu */
+  .mobileResumeItem {
+    display: block;
+  }
+  
+  /* Hide desktop resume container */
+  .desktopResumeContainer {
+    display: none;
   }
   
   /* Adjust resume button on mobile for better visibility */

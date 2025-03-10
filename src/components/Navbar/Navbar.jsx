@@ -1,6 +1,6 @@
-import React, { useState } from "react"; 
-import styles from "./Navbar.module.css"; 
-import { getImageUrl } from "../../utils";  
+import React, { useState } from "react";
+import styles from "./Navbar.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,9 +37,18 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li className={styles.mobileResumeItem}>
+            <a
+              className={styles.resumeLink}
+              href="/assets/resume/P Naga Siddartha Reddy .Resume (3).pdf"
+              download="Siddartha_Resume.pdf"
+            >
+              Resume👜
+            </a>
+          </li>
         </ul>
-        {/* Resume Button */}
-        <div className={styles.resumeContainer}>
+        {/* Resume Button - Desktop only */}
+        <div className={styles.desktopResumeContainer}>
           <a
             className={styles.resumeLink}
             href="/assets/resume/P Naga Siddartha Reddy .Resume (3).pdf"
