@@ -42,7 +42,7 @@ export const Navbar = () => {
         <div className={styles.resumeContainer}>
           <a
             className={styles.resumeLink}
-            href="public/assets/resume/P Naga Siddartha Reddy .Resume (3).pdf"
+            href="/assets/resume/P Naga Siddartha Reddy .Resume (3).pdf"
             download="Siddartha_Resume.pdf"
           >
             Resume👜
