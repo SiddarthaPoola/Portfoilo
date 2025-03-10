@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Intern",
+      "organisation": "EvoluteIQ",
+      "startDate": "June, 2023",
+      "endDate": "August, 2023",
+      "experiences": ["Worked on Cloud Kitchen Project", "Streamlined order tracking, inventory, and feedback","Reduced manual effort by 50%"],
+      "imageSrc": "history/EvoluteIq.png"
+    },
+    {
+      "role": "Intern",
+      "organisation": "ProCorp",
+      "startDate": "May, 2024",
+      "endDate": "Nov, 2024",
+      "experiences": ["Underwent training for DevOps using various tools provided by ProCorp company", "The training equipped me to manage and automate the software lifecycle"],
+      "imageSrc": "history/Procorp.png"
+    }
+]
+    

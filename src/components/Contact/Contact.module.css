@@ -1,0 +1,118 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-dark); /* Changed to match About section */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 40px; /* Increased gap for better spacing */
+}
+
+.text h2 {
+  font-size: 60px; /* Reduced font size for consistency */
+  font-weight: 700;
+  letter-spacing: 2px; /* Adjusted letter spacing */
+  margin-bottom: 20px; /* Added margin for spacing */
+  text-align: center; /* Center-align the heading */
+}
+
+.text p {
+  font-size: 24px; /* Reduced font size for consistency */
+  font-weight: 400;
+  letter-spacing: 1px; /* Adjusted letter spacing */
+  text-align: center; /* Center-align the paragraph */
+  color: rgba(255, 255, 255, 0.8); /* Slightly transparent text */
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 20px; /* Adjusted gap for better spacing */
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjusted gap for better spacing */
+  transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+
+.link:hover {
+  transform: translateX(10px); /* Slide effect on hover */
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 24px; /* Reduced font size for consistency */
+  font-weight: 400;
+  letter-spacing: 1px; /* Adjusted letter spacing */
+  transition: color 0.3s ease; /* Added transition for hover effect */
+}
+
+.link a:hover {
+  color: var(--color-accent); /* Change color on hover */
+}
+
+.link img {
+  width: 40px; /* Adjusted icon size */
+  height: 40px; /* Adjusted icon size */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Added transition for hover effect */
+}
+
+.link:hover img {
+  transform: scale(1.2) rotate(10deg); /* Slight zoom and rotate effect on hover */
+  filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8)); /* Glow effect on hover */
+}
+
+/* Specific hover effects for different social media icons */
+.link[data-social="github"]:hover img {
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.8)); /* Dark glow for GitHub */
+}
+
+.link[data-social="linkedin"]:hover img {
+  filter: drop-shadow(0 0 8px rgba(10, 102, 194, 0.8)); /* Blue glow for LinkedIn */
+}
+
+.link[data-social="twitter"]:hover img {
+  filter: drop-shadow(0 0 8px rgba(29, 161, 242, 0.8)); /* Blue glow for Twitter */
+}
+
+.link[data-social="instagram"]:hover img {
+  filter: drop-shadow(0 0 8px rgba(225, 48, 108, 0.8)); /* Pink glow for Instagram */
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 30px; /* Adjusted gap for mobile */
+    padding: 40px 10%; /* Adjusted padding for mobile */
+  }
+
+  .text h2 {
+    font-size: 40px; /* Adjusted font size for mobile */
+  }
+
+  .text p {
+    font-size: 18px; /* Adjusted font size for mobile */
+  }
+
+  .links {
+    align-items: center; /* Center-align links for mobile */
+  }
+
+  .link a {
+    font-size: 20px; /* Adjusted font size for mobile */
+  }
+
+  .link img {
+    width: 30px; /* Adjusted icon size for mobile */
+    height: 30px; /* Adjusted icon size for mobile */
+  }
+}
