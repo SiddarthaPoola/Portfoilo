@@ -130,6 +130,8 @@
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    max-height: 80vh;
+    overflow-y: auto;
   }
 
   .menuOpen {
@@ -140,5 +142,13 @@
   .resumeContainer {
     margin-left: 0; /* Reset margin for mobile */
     margin-top: 10px; /* Add space between menu items and resume button */
+    position: relative; /* Position relative to make sure it doesn't overlap */
+    z-index: 3; /* Higher z-index than the menu */
+  }
+  
+  /* Adjust resume button on mobile for better visibility */
+  .resumeLink {
+    font-size: 20px; /* Slightly smaller font on mobile */
+    padding: 5px 10px; /* Slightly better padding for touch */
   }
 }
