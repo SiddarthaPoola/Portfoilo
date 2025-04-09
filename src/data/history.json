@@ -1,4 +1,12 @@
 [
+  {
+    "role": "Software Developer",
+    "organisation": "Aadivakula Electronics",
+    "startDate": "Dec, 2024",
+    "endDate": "Present",
+    "experiences": ["Worked on Real-time IoT dashboard", "Built a real-time industrial control dashboard using React, Node.js, Socket.IO, and WebSockets","Integrated UDP communication for microcontroller interaction, enabling low-latency data exchange."],
+    "imageSrc": "history/Aadivakula.png"
+  },
     {
       "role": "Intern",
       "organisation": "EvoluteIQ",

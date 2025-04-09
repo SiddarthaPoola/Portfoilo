@@ -1,22 +1,28 @@
-[
-    {
-      "title": "AI-Powered Website Builder",
-      "imageSrc": "projects/project.png",
-      "description": "Developed an AI-driven web app that automates website creation by generating structure, files, and code. Built the frontend with React.js, Tailwind CSS, and integrated AI-powered steps using Node.js. Implemented a dynamic file system and live code editor for real-time updates.",
-      "skills": ["React", "Express", "Node","ClaudeAI","Web Container API"],
-      "source": "https://github.com/SiddarthaPoola/Webbloom"
-    },
-    {
-      "title": "Cloud kitchen Management",
-      "imageSrc": "projects/CloudKitchen.png",
-      "description": "Developed a web-based platform for managing cloud kitchen operations using the Evolute-IQ platform. Enabled seamless order tracking, inventory management, and customer feedback collection, reducing manual effort by 50%.",
-      "skills": ["HTML", "CSS", "JS","MySQL"]
-    },
-    {
-      "title": "Library Management",
-      "imageSrc": "projects/Library.png",
-      "description": "Designed and developed a full-stack web application for managing library resources using React.js, Node.js, CSS, and MongoDB. Implemented features such as book tracking, user authentication, and digital asset management, improving operational efficiency by 30%.",
-      "skills": ["CSS","React", "Express", "Node","MongoDB"],
-      "source": "https://github.com/SiddarthaPoola/Library_Management"
-    }
-  ]
+[  
+  {
+    "title": "Real-time IoT control dashboard",
+    "imageSrc": "projects/IOT.png",
+    "description": "Developed a real-time IoT dashboard for remote relay control, using WebSocket (Socket.IO) for frontend-backend communication and UDP for low-latency microcontroller interactions. Implemented secure authentication, live data visualization, and error handling for reliability, bridging web apps with embedded systems for industrial automation.",
+    "skills": ["HTML", "CSS", "Node js", "Socket.IO", "UDP Protocol"]
+  },
+  {
+    "title": "AI-Powered Website Builder",
+    "imageSrc": "projects/project.png",
+    "description": "Developed an AI-driven web app that automates website creation by generating structure, files, and code. Built the frontend with React.js, Tailwind CSS, and integrated AI-powered steps using Node.js. Implemented a dynamic file system and live code editor for real-time updates.",
+    "skills": ["React", "Express", "Node", "ClaudeAI", "Web Container API"],
+    "source": "https://github.com/SiddarthaPoola/Webbloom"
+  },
+  {
+    "title": "Cloud kitchen Management",
+    "imageSrc": "projects/CloudKitchen.png",
+    "description": "Developed a web-based platform for managing cloud kitchen operations using the Evolute-IQ platform. Enabled seamless order tracking, inventory management, and customer feedback collection, reducing manual effort by 50%.",
+    "skills": ["HTML", "CSS", "JS", "MySQL"]
+  },
+  {
+    "title": "Library Management",
+    "imageSrc": "projects/Library.png",
+    "description": "Designed and developed a full-stack web application for managing library resources using React.js, Node.js, CSS, and MongoDB. Implemented features such as book tracking, user authentication, and digital asset management, improving operational efficiency by 30%.",
+    "skills": ["CSS", "React", "Express", "Node", "MongoDB"],
+    "source": "https://github.com/SiddarthaPoola/Library_Management"
+  }
+]
