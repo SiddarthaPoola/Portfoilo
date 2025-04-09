@@ -40,7 +40,7 @@ export const Navbar = () => {
           <li className={styles.mobileResumeItem}>
             <a
               className={styles.resumeLink}
-              href="dist\assets\resume\P Naga Siddartha Reddy .Resume (5).pdf"
+              href="assets\resume\P Naga Siddartha Reddy .Resume (5).pdf"
               download="Siddartha_Resume.pdf"
             >
               Resume👜
@@ -51,7 +51,7 @@ export const Navbar = () => {
         <div className={styles.desktopResumeContainer}>
           <a
             className={styles.resumeLink}
-            href="dist\assets\resume\P Naga Siddartha Reddy .Resume (5).pdf"
+            href="assets\resume\P Naga Siddartha Reddy .Resume (5).pdf"
             download="Siddartha_Resume.pdf"
           >
             Resume👜
